@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Navbar */
+
+nav{
+    height: 12vh;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 6px 10px rgb(0 0 0 / 20%);
+}
+.nav-mid{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.rgb-color a , .hex-color a{
+    margin: 0 235px;
+    font-family: 'Lora', serif;
+    letter-spacing: 2px;
+}
+.hex-color a{
+    color: rgb(11, 129, 175);
+}
+.rgb-color a:hover{
+    color: rgb(11, 129, 175);
+}
+
+/* Navbar */
+
+
+
+/* Main Body */
+
+.container{
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.head-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 630px;
+    background-color: black;
+    border-radius: 50px;
+}
+.head-container h2{
+    margin: 7px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Lora', serif;
+}
+.color{
+    color: rgb(11, 129, 175);
+}
+.btn-container{
+    display: flex;
+    justify-content: center;    
+    width: 200px;
+    margin: 0 auto;
+}
+.btn-container button{
+    margin: 15px;
+    height: 45px;  
+    width: 140px;
+    background: transparent;
+    border: 3px solid black;
+    border-radius: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    font-weight: 1000;
+}
+.btn-container button:hover{
+    background: black;
+    color: white;
+}
+
+/* Main Body */
